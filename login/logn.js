@@ -22,5 +22,6 @@ loginButton.addEventListener("click", function (event) {
     window.location.href = "../dashboard/index.html";
   } else {
     alert("Invalid credentials");
+    console.log("testing");
   }
 });
