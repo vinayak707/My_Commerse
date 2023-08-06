@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="loginpage.css" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <h5 class="text-h5 mb-1">
+      Welcome to "
+      <span class="text-capitalize"> Your Business"</span>! 👋🏻
+    </h5>
+    <p class="mb-0">Please sign-in to your account and embark the adventure</p>
+
+    <div class="container">
+      <div class="login-box">
+        <h2>Login</h2>
+        <form id="logn_form">
+          <div class="input-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required />
+          </div>
+          <div class="input-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+
+          <button type="submit" class="login-button">Login</button>
+
+          <div class="forgot-password" id="forgot">
+            <a href="../forgot/forgot.html"> Forgot Password?</a>
+
+            <button type="button" class="signup-button" id="signup">
+              Sign-UP
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./logn.js"></script>
+  </body>
+</html>
