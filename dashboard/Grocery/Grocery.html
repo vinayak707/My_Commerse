@@ -6,7 +6,7 @@
     <title>My Business</title>
     <script src="https://kit.fontawesome.com/bbbe5e3ffc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
-    <link rel="stylesheet" href="dashboard.css" />
+    <link rel="stylesheet" href="grocery.css" />
   </head>
 
   <body>
@@ -29,7 +29,7 @@
       <div class="bodycontainer">
         
         <div class="sidebar">
-          <button type="submit" class="sidebarbtn" id="grocery">Groceries</button>
+          <button type="submit" class="sidebarbtn">Groceries</button>
           <button type="submit" class="sidebarbtn">Vegitables</button>
           <button type="submit" class="sidebarbtn">Electronics</button>
           <button type="submit" class="sidebarbtn">Interiar</button>
@@ -38,13 +38,26 @@
           <button type="submit" class="sidebarbtn">Food & Bevereges</button>
         </div>
         <div class="content">
-          <img image="welcome.png"/>
-          
+          <div class="filters">
+          <div>
+          <label for="minPrice" class="price">Min Price:</label>
+<input type="number" id="minPrice" min="0" step="1" value="0">
+          </div>
+          <div>
+<label for="maxPrice" class="price">Max Price:</label>
+<input type="number" id="maxPrice" min="0" step="1" value="100">
+</div>
+<button id="applyFilter" class="applyfilter">Apply Filter</button>
+
+<div class="product-list">
+    <!-- Your product items go here -->
+  </div>
+</div>
+
 
           </div>
         </div>
       </div>
     </div>
   </body>
-  <script src="dashboard.js"></script>
 </html>
