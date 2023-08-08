@@ -21,8 +21,8 @@ body {
   }
   .content {
     width: 85%;
-    height: 91.5vh;
-    border: 1px solid black;
+    
+
   }
   
   .search {
@@ -103,4 +103,12 @@ body {
     width: 180px;
     border-radius: 4px;
     
+  }
+  .banner{
+    width: 82.5%;
+    height:50% ;
+    border: solid black;
+    margin-left: 17%;
+    margin-top: -290px;
+
   }
