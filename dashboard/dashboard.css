@@ -1,0 +1,86 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.navbar {
+  width: 100%;
+  height: 40px;
+  border: 1px solid black;
+  background-color: aqua;
+  font-size: 40px;
+}
+.bodycontainer {
+  display: flex;
+}
+.sidebar {
+  width: 15%;
+  height: 91.5vh;
+  border: 1px solid black;
+  background-color: cadetblue;
+}
+.content {
+  width: 85%;
+  height: 91.5vh;
+  border: 1px solid black;
+  background-image: url("welcome2.webp");
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input[type="text"] {
+  padding: 5px;
+  border: solid black;
+  border-radius: 3px;
+  margin-left: 500px;
+  margin-top: -4%;
+  width: 400px;
+  height: 20px;
+}
+
+.search button {
+  background-color: #333;
+  color: white;
+  border: solid blue;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: -4%;
+  margin-right: 500px;
+  padding-left: 10px;
+  width: 80px;
+  height: 35px;
+  font-size: 15px;
+
+}
+.search_items{
+  font-size: 20px;
+  font-style:italic;
+}
+.fa-solid fa-person-sign{
+  margin-left: 80%;
+}
+.logout{
+  color: blueviolet;
+  width: 80px;
+  padding: 10px;
+  height:35px ;
+  margin-left: -50px;
+
+}
+.sidebarbtn{
+  display: flex;
+  background-color: blue;
+  padding:5px;
+  margin: 10px;
+  width: 170px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
