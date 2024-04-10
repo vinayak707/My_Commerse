@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, red, yellow);
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+}
+
+.header-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+
+}
+
+.text-input textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.controls {
+  list-style: none;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.row select {
+  flex: 1;
+  margin-right: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.icons i {
+  font-size: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.exchange {
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .header-links {
+    display: none;
+  }
+
+  .logo {
+    max-width: 100px;
+    margin-left: 10px;
+  }
+}
